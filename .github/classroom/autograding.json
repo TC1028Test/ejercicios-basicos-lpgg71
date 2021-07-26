@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Hello World",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/00HelloWorld",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 30
+    },
+    {
+      "name": "Operaciones Basicas",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/01OperacionesBasicas",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 30
+    },
+    {
+      "name": "Area Triangulo",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/02AreaTriangulo",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 40
+    }
+  ]
+}
